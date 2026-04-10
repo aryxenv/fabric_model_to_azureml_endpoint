@@ -104,9 +104,7 @@ Go to the **Test** tab and use this input:
 {
   "input_data": {
     "columns": ["ds"],
-    "data": [
-      ["2012-11-26"]
-    ]
+    "data": [["2012-11-26"]]
   }
 }
 ```
@@ -114,3 +112,8 @@ Go to the **Test** tab and use this input:
 ![Test endpoint](img/azureml_endpoint_test_18.png)
 
 You'll see the predictions in the output. This endpoint can be called from anywhere — a Fabric ML pipeline developed and hosted as an Azure ML endpoint.
+
+## Disclaimer
+
+> [!WARNING]
+> This repository is an **unofficial** guide. It is provided "as is" without warranty of any kind. Use at your own risk. The authors and contributors assume no liability for any damages or issues arising from its use. See the [LICENSE](LICENSE) for full terms.
